@@ -1,0 +1,1 @@
+module.exports = { content: ['./src/**/*.{js,jsx,ts,tsx}'], theme: { extend: { colors: { forest:'#2d5a27', cream:'#fbfaf6', earth:'#8b6a4a' }, fontFamily: { bangla: ['Hind Siliguri','Noto Sans Bengali','sans-serif'] } } }, plugins: [] };
