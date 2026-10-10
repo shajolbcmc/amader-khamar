@@ -1,6 +1,14 @@
 node_modules/
 .next/
-data/*.sqlite*
+.vercel/
 .env
-.env.local
+.env.*
+!.env.example
 *.log
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+data/*.sqlite*
+coverage/
+.DS_Store

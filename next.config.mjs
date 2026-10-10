@@ -1,2 +1,2 @@
-/** @type {import('next').NextConfig} */
-export default { reactStrictMode: true };
+const nextConfig={reactStrictMode:true,serverExternalPackages:['pg']};
+export default nextConfig;
